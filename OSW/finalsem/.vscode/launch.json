@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "sortt",
+      "request": "launch",
+      "mainClass": "sortt",
+      "projectName": "finalsem_a062fa7b"
+    },
+    {
+      "type": "java",
+      "name": "prg",
+      "request": "launch",
+      "mainClass": "prg",
+      "projectName": "finalsem_a062fa7b"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/student/2141011103/OSW/finalsem",
+      "program": "/home/student/2141011103/OSW/finalsem/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
